@@ -15,15 +15,16 @@ const BadgeDisplayer = ({
     <div className={isRightAligned ? 'BadgeDisplayer BadgeDisplayer--is-right-aligned' : 'BadgeDisplayer'}>
       <div className="BadgeDisplayer__wrapper">
         <div className="BadgeDisplayer__text-block">
-          <p className="BadgeDisplayer__title">{title}</p>
+          <p className="BadgeDisplayer__title BadgeDisplayer__title--hide-mobile">{title}</p>
           <React.Fragment>{description}</React.Fragment>
           <React.Fragment>{specifics}</React.Fragment>
         </div>
+        <p className="BadgeDisplayer__title BadgeDisplayer__title--hide-desktop">{title}</p>
         <div className="BadgeDisplayer__image-block">
           <div className="BadgeDisplayer__image-container">
             {limit}
             {img}
-            <Logo />
+            <Logo className="BadgeDisplayer__image-logo"/>
           </div>
           <div className="BadgeDisplayer__how-to">
             {howTo}
