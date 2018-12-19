@@ -5,8 +5,19 @@
   margin: 0 auto;
   margin-top: 30px;
 
+  @include media("<1200px") {
+    padding-bottom: 40px;
+  }
+
   &__container{
     display: flex;
+
+    & div:nth-child(1){
+      @include media("<1200px") {
+        width: 82%;
+        margin: 0 auto;
+      }
+    }
   }
 
   &__title{
@@ -16,6 +27,19 @@
     color: #FFFFFF;
     font-weight: 700;
     margin-bottom: 30px;
+
+    @include media("<1200px") {
+      font-size: 45px !important;
+    }
+
+    @include media("<980px") {
+      font-size: 40px !important;
+    }
+
+    @include media("<500px") {
+      font-size: 30px !important;
+      margin-bottom: 0px;
+    }
   }
 
   &__description{
@@ -25,8 +49,17 @@
     font-size: 18px;
     padding-right: 10%;
 
-    @include media("<980px") {
+    @include media("<1200px") {
       padding-right: 0px;
+    }
+
+    @include media("<980px") {
+      font-size: 16px;
+    }
+
+    @include media("<500px") {
+      font-size: 14px;
+      line-height: 22px;
     }
   }
 
@@ -36,7 +69,7 @@
     top: -35px;
     margin-bottom: 40px;
 
-    @include media("<980px") {
+    @include media("<1200px") {
       display: none;
     }
 

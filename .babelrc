@@ -14,7 +14,7 @@
         "extensions": ["css$", "scss$"]
       }
     ],
-    [ "inline-react-svg" ],
+    [ "inline-react-svg", { svgo: false }],
     [
       "transform-assets-import-to-string",
       {

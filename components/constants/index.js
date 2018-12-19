@@ -16,12 +16,13 @@ export const VOTING_BADGE_INFO = {
         centralised group. This badge could end up becoming a voting multiplier, the main and only way for users to vote, or
         anything in between. The one thing we do strongly believe is that these badges will be an intricate part to our governance model.
       </p>
+      <p className="BadgeDisplayer__text--display-mobile">How to obtain? Anyone who contributes any amount during any period of the tokensale will receive 1 voting badge.</p>
       <p>Our goal is to have these badges functional for governance by Q2 2019.</p>
     </React.Fragment>
   ),
 
-  howTo: <p><b>How to obtain? </b>Anyone who contributes any amount during any period of the tokensale will receive 1 voting badge.</p>,
-  img: <VotingBadge />,
+  howTo: <p className="BadgeDisplayer__text--hide-mobile"><b>How to obtain? </b>Anyone who contributes any amount during any period of the tokensale will receive 1 voting badge.</p>,
+  img: <VotingBadge className="BadgeDisplayer__image-main"/>,
   limit: <p>Limit 1 per person.</p>,
 };
 
@@ -45,11 +46,12 @@ export const BRAND_BADGE_INFO = {
         owners to permit a sale. This is designed to keep the MyBit brand decentralised, strong, alive, and
         always owned by the community in perpetuity.
       </p>
+      <p className="BadgeDisplayer__text--display-mobile">How to obtain? Anyone who contributes any amount during any period of the tokensale will receive 1 brand lottery badge per period.</p>
       <p>The lottery drawing will occur in early 2020 after the token distribution concludes.</p>
     </React.Fragment>
   ),
 
-  howTo: <p><b>How to obtain? </b>Anyone who contributes any amount during any period of the tokensale will receive 1 brand lottery badge per period.</p>,
-  img: <BrandBadge />,
+  howTo: <p className="BadgeDisplayer__text--hide-mobile"><b>How to obtain? </b>Anyone who contributes any amount during any period of the tokensale will receive 1 brand lottery badge per period.</p>,
+  img: <BrandBadge className="BadgeDisplayer__image-main"/>,
   limit: <p>Limit 1 per period, per person.</p>,
 };
