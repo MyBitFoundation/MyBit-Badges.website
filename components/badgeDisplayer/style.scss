@@ -1,0 +1,89 @@
+.BadgeDisplayer{
+  color: #4A4A4A;
+  background-color: #F9F9F9;
+  padding: 0 2%;
+  padding-bottom: 30px;
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  & p{
+    line-height: 28px;
+    font-size: 18px;
+  }
+
+  &__title{
+    font-weight: bold  !important;
+    line-height: 55px  !important;
+    font-size: 50px  !important;
+    margin-bottom: 30px;
+  }
+
+  &__text-block{
+    width: 52%;
+  }
+
+  &__image-block{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 8%;
+  }
+
+  &__how-to{
+    padding-top: 20px;
+  }
+
+  &__image-container{
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-height: 466px;
+    width: 100%;
+
+    & svg:nth-child(2){
+      height: 100%;
+      width: 80%;
+    }
+
+    & svg:nth-child(3){
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+
+    & p{
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      font-size: 14px;
+    }
+  }
+
+  &--is-right-aligned{
+    background-color: white;
+
+    .BadgeDisplayer__text-block{
+      order: 1;
+    }
+
+    .BadgeDisplayer__image-block{
+      order: 0;
+    }
+
+    .BadgeDisplayer__image-block{
+      margin-right: 8%;
+      margin-left: 0%;
+    }
+  }
+}

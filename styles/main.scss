@@ -1,0 +1,83 @@
+@import 'normalize.css';
+@import 'include-media/dist/_include-media.scss';
+@import './colors.scss';
+@import './typography.scss';
+
+// import antd styles separately
+@import 'antd/lib/style/index.css';
+@import 'antd/lib/tabs/style/index.css';
+@import 'antd/lib/grid/style/index.css';
+@import 'antd/lib/form/style/index.css';
+@import 'antd/lib/icon/style/index.css';
+@import 'antd/lib/input/style/index.css';
+@import 'antd/lib/menu/style/index.css';
+@import 'antd/lib/card/style/index.css';
+@import 'antd/lib/button/style/index.css';
+
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    transform: translate3d(0,0,0);
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+html {
+  font-family: $base-font-family !important;
+  font-size: $base-font-size;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $base-font-family !important;
+  line-height: 1.2;
+  color: $text-color;
+  -webkit-overflow-scrolling:touch;
+}
+
+.MainWrapper__mobileMenu--is-open{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mainContainer {
+  padding: 0 2%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+.Main__wrapper{
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+
+  &--is-mobile-menu-open{
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  &--is-video-open{
+    height: 100vh;
+  }
+}
+
+.headerWrapper {
+  background: linear-gradient(0deg,#001358,#125ac4);
+}
+
+.contentWrapper{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+[class^="ant-"] {
+    font-family: $base-font-family !important;
+}
