@@ -1,6 +1,6 @@
 import React from 'react';
 import VotingBadge from '../../static/svgs/other/voting_badge.svg'
-import BrandBadge from '../../static/svgs/other/brand_badge.svg'
+import BrandBadge from '../../static/svgs/other/iconic_badge.svg'
 
 export const VOTING_BADGE_INFO = {
   title: 'Voting badge',
