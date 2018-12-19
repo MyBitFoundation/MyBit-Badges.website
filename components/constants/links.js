@@ -16,10 +16,10 @@ export const LINKS = {
   subscribeLink: 'https://chimpstatic.com/mcjs-connected/js/users/af48b1fdb5278fd9884338f23/50e4f28ebe0a2cd4dd5290132.js',
 
   // Pages
-  aboutPage: 'about-us#top',
-  applications: 'applications#top',
-  fund: 'fund#top',
-  token: 'token#top',
+  aboutPage: 'https://mybit.io/about-us#top',
+  applications: 'https://mybit.io/applications#top',
+  fund: 'https://mybit.io/fund#top',
+  token: 'https://mybit.io/token#top',
 
   // News
   news: 'https://medium.com/mybit-dapp/introduction-a8275e6bcbec',
