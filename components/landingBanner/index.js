@@ -1,6 +1,6 @@
 import stylesheet from './style.scss'
 import VotingBadge from '../../static/svgs/other/voting_badge.svg'
-import BrandBadge from '../../static/svgs/other/brand_badge.svg'
+import BrandBadge from '../../static/svgs/other/iconic_badge.svg'
 
 const LandingBanner = () => (
   <React.Fragment>
