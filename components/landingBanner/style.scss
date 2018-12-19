@@ -1,0 +1,56 @@
+@import 'include-media/dist/_include-media.scss';
+
+.LandingBanner{
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  &__container{
+    display: flex;
+  }
+
+  &__title{
+    font-family: Gilroy;
+    line-height: 55px;
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  &__description{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    font-size: 18px;
+    padding-right: 10%;
+
+    @include media("<980px") {
+      padding-right: 0px;
+    }
+  }
+
+  &__badges{
+    display: flex;
+    position: relative;
+    top: -35px;
+    margin-bottom: 40px;
+
+    @include media("<980px") {
+      display: none;
+    }
+
+    & p{
+      font-family: Gilroy;
+      line-height: 24px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    & svg{
+      margin: 0px 30px;
+    }
+  }
+}
