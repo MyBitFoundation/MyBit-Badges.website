@@ -30,7 +30,7 @@ export const BRAND_BADGE_INFO = {
   title: 'Brand Lottery badge',
 
   description: (
-    <p><b>Description: </b>This badge is designed to decentralised the MyBit brand. One of the main aspects of open source
+    <p><b>Description: </b>This badge is designed to decentralise the MyBit brand. One of the main aspects of open source
       projects which creates centralised risk is the owner(s) of the brand, including copyrights,
       trademarks, and so forth. If an individual or small group exclusively owns the brand, they could
       at any point sell it to a corporation and it would create havoc among the open source project -

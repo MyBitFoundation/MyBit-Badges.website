@@ -9,8 +9,8 @@ const LandingBanner = () => (
       <div className="LandingBanner__container">
         <div>
           <p className="LandingBanner__title">Contribution Badges</p>
-          <p className="LandingBanner__description">MyBit badges are used to increase engagment within our community and reward those who are active.
-         We have massive plans for scaling decentralised communities erc-721 badges in 2019, this is just the beginning.</p>
+          <p className="LandingBanner__description">MyBit badges are used to increase engagment within our community and reward those who actively participate.
+         We have massive plans for scaling decentralised communities with erc-721 badges in 2019, this is just the beginning.</p>
         </div>
         <div className="LandingBanner__badges">
           <div>
