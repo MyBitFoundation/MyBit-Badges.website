@@ -7,6 +7,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
+  target: "serverless",
   webpack(config) {
     config.plugins.push(
       new webpack.DefinePlugin({

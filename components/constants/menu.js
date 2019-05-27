@@ -28,9 +28,9 @@ export const MOBILE_MENU = [{
     ]
   },
   ,{
-    name: "Go to DDF",
+    name: "Go to Task Market",
     button: true,
-    path: { url: LINKS.ddf, external: true }
+    path: { url: LINKS.taskmarket, external: true }
     }
 ];
 
@@ -101,7 +101,7 @@ export const HEADER_MENU_LANGUAGE = {
 
 export const HEADER_MENU_BUTTON =
   {
-    name: "Go to DDF",
-    url: "https://ddf.mybit.io",
+    name: "Go to Task Market",
+    url: "https://task.market",
     external: true
   }
